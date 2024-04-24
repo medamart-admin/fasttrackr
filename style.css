@@ -11,6 +11,8 @@ body
 {
     min-height: 100vh;
     background:linear-gradient(#C0D9C2,#008B8B);
+    margin:0;
+    padding:0;
     /* overflow-x: hidden; */
 }
 header
@@ -165,4 +167,15 @@ section img#mountains_front
     align-content: center;
     text-align: center;
 }
- }
+
+.footer {
+    width: 700px;
+    margin: 0 auto;
+    position: absolute;
+    bottom:0;
+}
+.footer p {
+    text-align: center;
+    /* padding: 30px; */
+    font-size: 10px;
+}
