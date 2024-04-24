@@ -1,109 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+	<title>Fasttrackr</title>
 
-Welcome to FastTrackr! These Terms of Service create a legal agreement between you and FastTrackr, based in Bengaluru, and its affiliates ("FastTrackr," "we," "our," or "us"), governing your use of our products and website (referred to as the "Site" and collectively with the products, the "Services").
+	<!-- Required meta tags -->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta name="description"
+		content="Fasttrackr is an AI productivity tool" />
+	<!-- Bootstrap CSS -->
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" /> -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-By registering for an account or accessing and using the Services, you acknowledge and agree that you have read, understood, and consent to be bound by these Terms of Service, whether or not you have registered. If you do not agree to these terms, you may not access or use the Services. These Terms of Service are effective as of the date you first use or access the Services.
+	<link rel="apple-touch-icon" sizes="57x57" href="./src/favicon/apple-icon-57x57.png" />
+	<link rel="apple-touch-icon" sizes="60x60" href="./src/favicon/apple-icon-60x60.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="./src/favicon/apple-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="76x76" href="./src/favicon/apple-icon-76x76.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="./src/favicon/apple-icon-114x114.png" />
+	<link rel="apple-touch-icon" sizes="120x120" href="./src/favicon/apple-icon-120x120.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="./src/favicon/apple-icon-144x144.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="./src/favicon/apple-icon-152x152.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="./src/favicon/apple-icon-180x180.png" />
+	<link rel="icon" type="image/png" sizes="192x192" href="./src/favicon/android-icon-192x192.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="./src/favicon/favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="96x96" href="./src/favicon/favicon-96x96.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="./src/favicon/favicon-16x16.png" />
+	<link rel="manifest" href="./src/favicon/manifest.json" />
+	<link href="font/css/font-awesome.css" rel="stylesheet">
+	<meta name="msapplication-TileColor" content="#fff3f3" />
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+	<meta name="theme-color" content="#fff3f3" />
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 
-Your submission of personal data to us or our collection of data about you is governed by our Privacy Policy ("Privacy Policy"), available at http://fasttrackr.com/privacy. By using the Services, you confirm that you have reviewed the Privacy Policy. The Privacy Policy is incorporated into these Terms of Service, together forming this "Agreement."
+		* {
+			font-family: Arial, Helvetica, sans-serif;
+			color: #444b54;
+		}
 
-Please note: This Agreement outlines how disputes between you and FastTrackr can be resolved. It includes a binding arbitration provision and a waiver of class action rights (see Section 12). Please read carefully as it affects your legal rights, including, if applicable, your right to opt out of arbitration.
+		body {
+			background: #545454;
+		}
 
-Our Services
-FastTrackr provides an email-based artificial intelligence assistant.
+		.body-container {
+			background: #C0D9C2;
+		}
 
-Account, Password, and Security
-To use the Services, you must register with FastTrackr and create an account ("Account"). During registration, you'll provide certain information, like your name and email address. You agree to provide accurate and complete information and to keep your Account information up to date. You're responsible for maintaining the confidentiality of your login, password, and other account information. You are solely responsible for all activities that occur under your Account. If you suspect unauthorized use of your Account, contact FastTrackr immediately.
+		.main-container {
+			border-radius: 2.5em;
+			background: #ffffff;
+		}
 
-The person signing up for the Services will be the contracting party ("Account Owner") and solely responsible for complying with these Terms of Service. Your Account is not transferable. You must immediately notify us of any unauthorized use of your account.
+		.nav-item>a {
+			font-weight: 500;
+			font-size: 1rem;
+		}
 
-Billing and Payment
-Payment and expenses must be made through our third-party payment processing system (the "PSP") as indicated on the Services. By accepting these Terms of Service, you agree to the PSP Services Agreement. Prices and fees displayed for the Services are exclusive of applicable taxes. All payments are in U.S. dollars.
+		.nav-item>a:hover {
+			font-weight: 600;
+		}
 
-Content
-"User Content" refers to any data you provide to the Services. You're solely responsible for User Content and grant FastTrackr a license to use it. We make no guarantees regarding the accuracy of the Services' Output.
+		h4 {
+			font-weight: 400;
+		}
 
-Representations and Warranties
-You represent and warrant that you have the legal capacity to enter into this Agreement and will act in accordance with all applicable laws.
+		h2 {
+			font-weight: 700;
+		}
 
-You agree not to engage in prohibited activities, including unauthorized use of the Services and infringement of intellectual property rights.
+		ul{
+			list-style-type: none;
+		}
 
-Termination and Suspension
-Either party may terminate these Terms of Service at any time. You may cancel your Account at any time. We reserve the right to refuse Services to anyone and may terminate your access if we suspect a breach of this Agreement.
+		.cta {
+			background-color: #444b54;
+			color: #fff3f3;
+			border-radius: 1em;
+		}
 
-Intellectual Property Rights
-All content on the Services is owned by FastTrackr. You may not use or reproduce any content without our consent.
+		.cta:hover {
+			color: #fff3f3;
+			opacity: 0.75;
+		}
 
-Copyright Complaints
-If you believe materials on the Services infringe your copyright, please contact our Copyright Agent with specific information.
+		.ss1 {
+			max-width: 685px;
+			width: 85%;
+			margin-top: -15%;
+			right: -15%;
+		}
 
+		.ss2 {
+			max-width: 370px;
+			margin-top: -0%;
+			left: -75%;
+		}
 
-9. Confidential Information
-You acknowledge that Confidential Information (as defined below) is a valuable, special and unique asset of Mindy and agree that you will not disclose, transfer, use (or seek to induce others to disclose, transfer or use) any Confidential Information for any purpose other than using the Services in accordance with these Terms of Service. If relevant, you may disclose the Confidential Information to your authorized employees and agents provided that they are also bound to maintain the confidentiality of Confidential Information. You shall promptly notify Mindy in writing of any circumstances that may constitute unauthorized disclosure, transfer, or use of Confidential Information. You shall use best efforts to protect Confidential Information from unauthorized disclosure, transfer or use. You shall return all originals and any copies of any and all materials containing Confidential Information to Mindy upon termination of this Agreement for any reason whatsoever.
+		.green {
+			color: #1e96a3;
+		}
 
-The term “Confidential Information” shall mean any and all of Mindy’s trade secrets, confidential and proprietary information, and all other information and data of Mindy that is not generally known to the public or other third parties who could derive value, economic or otherwise, from its use or disclosure. Confidential Information shall be deemed to include technical data, know-how, research, product plans, products, services, customers, markets, software, developments, inventions, processes, formulas, technology, designs, drawings, engineering, hardware configuration information, marketing, finances, strategic and other proprietary and confidential information relating to Mindy or Mindy’s business, operations or properties, including information about Mindy’s staff, users or partners, or other business information disclosed directly or indirectly in writing, orally or by drawings or observation.
+		.red {
+			color: #b7544a;
+		}
 
-10. Disclaimer of Warranties
-THE SERVICES AND OUTPUTS ARE PROVIDED ON AN “AS IS” BASIS WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OR CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. MINDY MAKES NO WARRANTIES OR REPRESENTATIONS ABOUT THE ACCURACY OR COMPLETENESS OF THE CONTENT PROVIDED THROUGH THE SERVICES OR THE CONTENT OF ANY SITES LINKED TO THE SERVICES AND ASSUMES NO LIABILITY OR RESPONSIBILITY IN CONTRACT, WARRANTY OR IN TORT FOR ANY (I) ERRORS, MISTAKES, OR INACCURACIES OF CONTENT, (II) PERSONAL INJURY OR PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING FROM YOUR ACCESS TO AND USE OF THE SERVICES OR OUTPUT, (III) ANY ACCESS TO OR USE OF OUR SECURE SERVERS AND/OR ANY AND ALL PERSONAL INFORMATION AND/OR FINANCIAL INFORMATION STORED THEREIN; AND (IV) EVENTS BEYOND OUR REASONABLE CONTROL.
+		.brown {
+			color: #c18363;
+		}
 
-UNDER NO CIRCUMSTANCES WILL MINDY AND AFFILIATES OR THEIR CORPORATE PARTNERS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, ACTUAL, CONSEQUENTIAL, ECONOMIC, SPECIAL OR EXEMPLARY DAMAGES (INCLUDING BUT NOT LIMITED TO LOST PROFITS, LOSS OF DATA, LOSS OF GOODWILL, SERVICE INTERRUPTION, COMPUTER DAMAGE, SYSTEM FAILURE, FAILURE TO STORE ANY INFORMATION OR OTHER CONTENT MAINTAINED OR TRANSMITTED BY MINDY, OR THE COST OF SUBSTITUTE PRODUCTS OR SERVICES) ARISING IN CONNECTION WITH YOUR USE OF OR INABILITY TO USE THE SERVICES OR OUTPUT, EVEN IF ADVISED OF THE POSSIBILITY OF THE SAME. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATIONS MAY NOT APPLY TO YOU IN THEIR ENTIRETY.
+		.pink {
+			color: #c58e8f;
+		}
 
-IF, NOTWITHSTANDING THE FOREGOING EXCLUSIONS, IT IS DETERMINED THAT MINDY AND AFFILIATES OR THEIR CORPORATE PARTNERS ARE LIABLE FOR DAMAGES, IN NO EVENT WILL THE AGGREGATE LIABILITY, WHETHER ARISING IN CONTRACT, TORT, STRICT LIABILITY OR OTHERWISE, EXCEED THE LOWER OF (I) THE TOTAL FEES PAID BY YOU TO MINDY DURING THE SIX MONTHS PRIOR TO THE TIME SUCH CLAIM AROSE OR (II) ONE HUNDRED DOLLARS ($100), TO THE EXTENT PERMITTED BY APPLICABLE LAW.
+		.signup {
+			margin-left: -15%;
+			width: 140%;
+			max-width: 1600px;
+		}
 
-11. Indemnification
-You hereby agree to indemnify, defend, and hold harmless Mindy and its officers, directors, employees, agents, attorneys, insurers, successors and assigns (the “Indemnified Parties”) from and against any and all Liabilities incurred in connection with (i) your use or inability to use the Services or Output, or (ii) your breach or violation of this Agreement; (iii) your violation of any law, or the rights of any user or third party and (iv) any content submitted by you or using your Account to the Services, including, but not limited to the extent such content may infringe on the intellectual rights of a third party or otherwise be illegal or unlawful. You also agree to indemnify the Indemnified Parties for any Liabilities resulting from your use of software robots, spiders, crawlers, or similar data gathering and extraction tools, or any other action you take that imposes an unreasonable burden or loan on our infrastructure. Mindy reserves the right, in its own sole discretion, to assume the exclusive defense and control at its own expense of any matter otherwise subject to your indemnification. You will not, in any event, settle any claim or matter without the prior written consent of Mindy.
+		.navbar>button {
+			outline: none;
+			width: 60px;
+		}
 
-12. Dispute Resolution – Arbitration & Class Action Waiver
-PLEASE READ THIS SECTION CAREFULLY — IT AFFECTS YOUR LEGAL RIGHTS AND GOVERNS HOW YOU AND MINDY CAN BRING CLAIMS AGAINST EACH OTHER. THIS SECTION WILL, WITH LIMITED EXCEPTION, REQUIRE YOU AND MINDY TO SUBMIT CLAIMS AGAINST EACH OTHER TO BINDING AND FINAL ARBITRATION ON AN INDIVIDUAL BASIS.
+		.navbar>button[aria-expanded="false"]>span.navbar-toggler-icon {
+			background-image: url('./src/nav_switch_off.svg');
+		}
 
-You agree that, in the event any dispute or claim arises out of or relating to your use of the Services, you will contact us at support@mindy.com and you and Mindy will attempt in good faith to negotiate a written resolution of the matter directly. You agree that if the matter remains unresolved for 30 days after notification (via certified mail or personal delivery), such matter will be deemed a “Dispute” as defined below. Except for the right to seek injunctive or other equitable relief described under the “Binding Arbitration” section below, should you file any arbitration claims, or any administrative or legal actions without first having attempted to resolve the matter by mediation, then you agree that you will not be entitled to recover attorneys' fees, even if you may have been entitled to them otherwise.
+		.navbar>button[aria-expanded="true"]>span.navbar-toggler-icon {
+			background-image: url('./src/nav_switch_on.svg');
+		}
+	</style>
+</head>
 
-Binding Arbitration. You and Mindy agree that any dispute, claim or controversy arising out of or relating to this Agreement or to your use of the Services (collectively “Disputes”) will be settled by binding arbitration, except that each party retains the right to seek injunctive or other equitable relief in a court of competent jurisdiction to prevent the actual or threatened infringement, misappropriation, or violation of a party’s copyrights, trademarks, trade secrets, patents, or other intellectual property rights. This means that you and Mindy both agree to waive the right to a trial by jury. Notwithstanding the foregoing, you may bring a claim against Mindy in “small claims” court, instead of by arbitration, but only if the claim is eligible under the rules of the small claims court and is brought in an individual, non-class, and non-representative basis, and only for so long as it remains in the small claims court and in an individual, non-class, and non-representative basis.
+<body>
+	<div class="container-fluid body-container p-md-5 overflow-hidden ">
+		<div class="row align-items-center justify-content-center mt-3 mb-5">
+			<h4 class="text-center" style="font-family:''; font-weight: 800; font-size:xx-large;">
+				<img src="./flogo.svg" width="100" alt="Fasttrackr" loading="Fasttrackr" class="center" />
+				Terms of Service
+			</h4>
+		</div>
+		<div class="main-container shadow p-md-5 py-4 mx-sm-5 mx-lg-5 ">
+			<nav class="navbar navbar-expand-lg navbar-light sticky-top " style="background: transparent; max-width: 100% ">
+				<a class="navbar-brand mx-4" href="index.html">
+					<i class="fa fa-home fa-3x"></i>
+				</a>
+				<!-- <button class="navbar-toggler mx-3 mx-sm-10" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation" style="border-color: #fff;">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav m-auto align-items-left">
+						<li class="nav-item mx-1">
+							<a class="nav-link" href="index.html" style="font-family: 'Arial'">Home</a>
+						</li>
+					</ul>
+				</div> -->
+			</nav>
 
-Class Action Waiver. You and Mindy agree that any proceedings to resolve Disputes will be conducted on an individual basis and not in a class, consolidated, or representative action. This means that you and Mindy both agree to waive the right to participate as a plaintiff as a class member in any class action proceeding. Further, unless you and Mindy agree otherwise in writing, the arbitrator in any Dispute may not consolidate more than one person’s claims and may not preside over any form of class action proceeding.
+			<div class="row col-12 mx-1 my-5 align-items-center">
+				<h2 class="text-center mb-5">Terms of Service</h2>
 
-Arbitration Administration and Rules. The arbitration will be administered by the American Arbitration Association (“AAA”) in accordance with the Commercial Arbitration Rules and the Supplementary Procedures for Consumer Related Disputes (the “AAA Rules”) then in effect, except as modified by this “Dispute Resolution’ section. (The AAA Rules are available at http://www.adr.org or by calling the AAA at 1-800-778-7879).
+				<div class="fasttrackr tos">
+					
+					<p>Welcome to FastTrackr! These Terms of Service create a legal agreement between you and FastTrackr, based in Bengaluru, and its affiliates ("FastTrackr," "we," "our," or "us"), governing your use of our products and website (referred to as the "Site" and collectively with the products, the "Services").</p>
+                    <br>
+                    <p>By registering for an account or accessing and using the Services, you acknowledge and agree that you have read, understood, and consent to be bound by these Terms of Service, whether or not you have registered. If you do not agree to these terms, you may not access or use the Services. These Terms of Service are effective as of the date you first use or access the Services.</p>
+                    <br>
+                    <p>Your submission of personal data to us or our collection of data about you is governed by our Privacy Policy ("Privacy Policy"), available at http://fasttrackr.com/privacy. By using the Services, you confirm that you have reviewed the Privacy Policy. The Privacy Policy is incorporated into these Terms of Service, together forming this "Agreement."</p>
+                    <br>
+                    <p>Please note: This Agreement outlines how disputes between you and FastTrackr can be resolved. It includes a binding arbitration provision and a waiver of class action rights (see Section 12). Please read carefully as it affects your legal rights, including, if applicable, your right to opt out of arbitration.</p>
 
-Arbitration Process. A party who desires to initiate the arbitration must provide the other party with a written Demand for Arbitration as specified in the AAA Rules. The arbitrator will be either a retired judge or an attorney licensed to practice law in the state of California and will be selected by the parties from the AAA’s roster of arbitrators with relevant experience. If the parties are unable to agree upon an arbitrator within seven days of delivery of the Demand for Arbitration, then the AAA will appoint the arbitrator in accordance with AAA Rules.
+                    <h4>Our Services</h4>
+                    <p>FastTrackr provides an whatsapp-based artificial intelligence assistant to users to manage emails and calendar.</p>
+                    <h4>Account, Password, and Security</h4>
+                    <p>To use the Services, you must register with FastTrackr and create an account ("Account"). During registration, you'll provide certain information, like your name and email address. You agree to provide accurate and complete information and to keep your Account information up to date. You're responsible for maintaining the confidentiality of your login, password, and other account information. You are solely responsible for all activities that occur under your Account. If you suspect unauthorized use of your Account, contact FastTrackr immediately.
 
-Arbitration Location and Procedure. Unless you and Mindy agree otherwise, the seat of the arbitration shall be in San Francisco, California. If your claim does not exceed USD$10,000, then the arbitration will be conducted solely on the basis of documents you and Mindy submit to the arbitrator, unless you request a hearing and the arbitrator then determines that a hearing is necessary. If your claim exceeds USD$10,000, your right to a hearing will be determined by AAA Rules. Subject to AAA Rules, the arbitrator will have the discretion to direct a reasonable exchange of information by the parties, consistent with the expedited nature of the arbitration. Hearings may be conducted by telephone or video conference, if requested and agreed to by the parties.
+                        The person signing up for the Services will be the contracting party ("Account Owner") and solely responsible for complying with these Terms of Service. Your Account is not transferable. You must immediately notify us of any unauthorized use of your account.                        
+                        </p>
 
-Arbitrator’s Decision and Governing Law. The arbitrator shall apply California law consistent with the Federal Arbitration Act and applicable statutes of limitations, and shall honor claims of privilege recognized by law. The arbitrator will render an award within the timeframe specified in the AAA Rules. Judgment on the arbitration may be entered in any court having jurisdiction thereof. Any award of damages by an arbitrator must be consistent with the “Disclaimers and Limitations of Liability” section above. The arbitrator may award declaratory or injunctive relief in favor of the claimant only to the extent necessary to provide relief warranted by the claimant’s individual claim.
+                    <h4>Billing and Payment</h4>
+                    <p>Payment and expenses must be made through our third-party payment processing system (the "PSP") as indicated on the Services. By accepting these Terms of Service, you agree to the PSP Services Agreement. Prices and fees displayed for the Services are exclusive of applicable taxes. All payments are in U.S. dollars.</p>
+                    <h4>Content</h4>
+                    <p>"User Content" refers to any data you provide to the Services. You're solely responsible for User Content and grant FastTrackr a license to use it. We make no guarantees regarding the accuracy of the Services' Output.</p>
+                    <h4>Representations and Warranties</h4>
+                    <p>You represent and warrant that you have the legal capacity to enter into this Agreement and will act in accordance with all applicable laws.
 
-Fees. Each party’s responsibility to pay the arbitration filing, administrative and arbitrator fees will depend on the circumstances of the arbitration and are set forth in the AAA Rules.
+                        You agree not to engage in prohibited activities, including unauthorized use of the Services and infringement of intellectual property rights.
+                        </p>
+                    <h4>Termination and Suspension</h4>
+                    <p>Either party may terminate these Terms of Service at any time. You may cancel your Account at any time. We reserve the right to refuse Services to anyone and may terminate your access if we suspect a breach of this Agreement.</p>
+                    <h4>Intellectual Property Rights</h4>
+                    <p>All content on the Services is owned by FastTrackr. You may not use or reproduce any content without our consent.</p>
+                    <h4>Copyright Complaints</h4>
+                    <p>If you believe materials on the Services infringe your copyright, please contact our Copyright Agent with specific information.</p>
+                    <h4>Confidential Information</h4>
+                    <p>You acknowledge that Confidential Information (as defined below) is a valuable, special and unique asset of fasttrackr and agree that you will not disclose, transfer, use (or seek to induce others to disclose, transfer or use) any Confidential Information for any purpose other than using the Services in accordance with these Terms of Service. If relevant, you may disclose the Confidential Information to your authorized employees and agents provided that they are also bound to maintain the confidentiality of Confidential Information. You shall promptly notify fasttrackr in writing of any circumstances that may constitute unauthorized disclosure, transfer, or use of Confidential Information. You shall use best efforts to protect Confidential Information from unauthorized disclosure, transfer or use. You shall return all originals and any copies of any and all materials containing Confidential Information to fasttrackr upon termination of this Agreement for any reason whatsoever.
 
-13. Governing Law
-Except as provided in Section 12 or expressly provided in writing otherwise, this Agreement and your use of the Services will be governed by, and will be construed under, the laws of the State of California, without regard to choice of law principles. This choice of law provision is only intended to specify the use of California law to interpret this Agreement.
+                        The term “Confidential Information” shall mean any and all of Fasttrackr’s trade secrets, confidential and proprietary information, and all other information and data of fasttrackr that is not generally known to the public or other third parties who could derive value, economic or otherwise, from its use or disclosure. Confidential Information shall be deemed to include technical data, know-how, research, product plans, products, services, customers, markets, software, developments, inventions, processes, formulas, technology, designs, drawings, engineering, hardware configuration information, marketing, finances, strategic and other proprietary and confidential information relating to fasttrackr or fasttrackr’s business, operations or properties, including information about fasttrackr’s staff, users or partners, or other business information disclosed directly or indirectly in writing, orally or by drawings or observation.
+                        </p>
+                    <h4>Disclaimer of Warranties</h4>
+                    <p>THE SERVICES AND OUTPUTS ARE PROVIDED ON AN “AS IS” BASIS WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OR CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. fasttrackr MAKES NO WARRANTIES OR REPRESENTATIONS ABOUT THE ACCURACY OR COMPLETENESS OF THE CONTENT PROVIDED THROUGH THE SERVICES OR THE CONTENT OF ANY SITES LINKED TO THE SERVICES AND ASSUMES NO LIABILITY OR RESPONSIBILITY IN CONTRACT, WARRANTY OR IN TORT FOR ANY (I) ERRORS, MISTAKES, OR INACCURACIES OF CONTENT, (II) PERSONAL INJURY OR PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING FROM YOUR ACCESS TO AND USE OF THE SERVICES OR OUTPUT, (III) ANY ACCESS TO OR USE OF OUR SECURE SERVERS AND/OR ANY AND ALL PERSONAL INFORMATION AND/OR FINANCIAL INFORMATION STORED THEREIN; AND (IV) EVENTS BEYOND OUR REASONABLE CONTROL.
 
-14. No Agency; No Employment
-No agency, partnership, joint venture, employer-employee or franchiser-franchisee relationship is intended or created by this Agreement.
+                        UNDER NO CIRCUMSTANCES WILL fasttrackr AND AFFILIATES OR THEIR CORPORATE PARTNERS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, ACTUAL, CONSEQUENTIAL, ECONOMIC, SPECIAL OR EXEMPLARY DAMAGES (INCLUDING BUT NOT LIMITED TO LOST PROFITS, LOSS OF DATA, LOSS OF GOODWILL, SERVICE INTERRUPTION, COMPUTER DAMAGE, SYSTEM FAILURE, FAILURE TO STORE ANY INFORMATION OR OTHER CONTENT MAINTAINED OR TRANSMITTED BY fasttrackr, OR THE COST OF SUBSTITUTE PRODUCTS OR SERVICES) ARISING IN CONNECTION WITH YOUR USE OF OR INABILITY TO USE THE SERVICES OR OUTPUT, EVEN IF ADVISED OF THE POSSIBILITY OF THE SAME. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATIONS MAY NOT APPLY TO YOU IN THEIR ENTIRETY.
+                        
+                        IF, NOTWITHSTANDING THE FOREGOING EXCLUSIONS, IT IS DETERMINED THAT fasttrackr AND AFFILIATES OR THEIR CORPORATE PARTNERS ARE LIABLE FOR DAMAGES, IN NO EVENT WILL THE AGGREGATE LIABILITY, WHETHER ARISING IN CONTRACT, TORT, STRICT LIABILITY OR OTHERWISE, EXCEED THE LOWER OF (I) THE TOTAL FEES PAID BY YOU TO fasttrackr DURING THE SIX MONTHS PRIOR TO THE TIME SUCH CLAIM AROSE OR (II) ONE HUNDRED DOLLARS ($100), TO THE EXTENT PERMITTED BY APPLICABLE LAW.
+                        </p>
+                    <h4>Indemnification</h4>
+                    <p>You hereby agree to indemnify, defend, and hold harmless Fasttrackr and its officers, directors, employees, agents, attorneys, insurers, successors and assigns (the “Indemnified Parties”) from and against any and all Liabilities incurred in connection with (i) your use or inability to use the Services or Output, or (ii) your breach or violation of this Agreement; (iii) your violation of any law, or the rights of any user or third party and (iv) any content submitted by you or using your Account to the Services, including, but not limited to the extent such content may infringe on the intellectual rights of a third party or otherwise be illegal or unlawful. You also agree to indemnify the Indemnified Parties for any Liabilities resulting from your use of software robots, spiders, crawlers, or similar data gathering and extraction tools, or any other action you take that imposes an unreasonable burden or loan on our infrastructure. Fasttrackr reserves the right, in its own sole discretion, to assume the exclusive defense and control at its own expense of any matter otherwise subject to your indemnification. You will not, in any event, settle any claim or matter without the prior written consent of Fasttrackr.</p>
+                    <h4>Dispute Resolution – Arbitration & Class Action Waiver</h4>
+                    <p>PLEASE CAREFULLY READ THIS SECTION AS IT AFFECTS YOUR LEGAL RIGHTS AND GOVERNS THE PROCESS FOR RESOLVING DISPUTES BETWEEN YOU AND Fasttrackr.
 
-15. General Provisions
-Failure by Mindy to enforce any provision(s) of this Agreement will not be construed as a waiver of any provision or right. This Agreement constitutes the complete and exclusive agreement between you and Mindy with respect to its subject matter, and supersedes and governs any and all prior agreements or communications. The provisions of this Agreement are intended to be interpreted in a manner which makes them valid, legal, and enforceable. Except for the “Class Action Waiver” in Section 12, in the event any provision is found to be partially or wholly invalid, illegal or unenforceable, (i) such provision shall be modified or restructured to the extent and in the manner necessary to render it valid, legal, and enforceable or, (ii) if such provision cannot be so modified or restructured, it shall be excised from the Agreement without affecting the validity, legality or enforceability of any of the remaining provisions. This Agreement may not be assigned or transferred by you without our prior written approval. We may assign or transfer this Agreement without your consent, including but not limited to assignments: (1) to a parent or subsidiary, (2) to an acquirer of assets, or (3) to any other successor or acquirer. Any assignment in violation of this section shall be null and void. This Agreement will inure to the benefit of Mindy, its successors and assigns.
+                        In the event of any dispute or claim arising from your use of the Services, you agree to first attempt to resolve the matter directly with Fasttrackr by contacting us at support@fasttrackr.com. If the matter remains unresolved after 30 days, it will be considered a "Dispute" as defined below. Except for seeking injunctive relief, both parties agree to resolve any Disputes through binding arbitration on an individual basis.
+                        
+                        Binding Arbitration: Any Disputes arising from this Agreement or your use of the Services will be settled through binding arbitration, except for seeking injunctive relief in court to protect intellectual property rights. Both parties waive the right to a trial by jury. However, you may bring a claim in small claims court if eligible and if it remains in an individual, non-class, and non-representative capacity.
+                        
+                        Class Action Waiver: Disputes will be resolved on an individual basis, and class, consolidated, or representative actions are waived by both parties. The arbitrator may not consolidate claims or preside over any form of class action.
+                        
+                        Arbitration Administration and Rules: The American Arbitration Association ("AAA") will administer the arbitration following its rules, except as modified in this section.
+                        
+                        Arbitration Process: The party initiating arbitration must provide a written Demand for Arbitration to the other party as specified by AAA Rules. The arbitrator will be selected from the AAA's roster of arbitrators with relevant experience.
+                        
+                        Arbitration Location and Procedure: Unless otherwise agreed, arbitration will be held in San Francisco, California. Depending on the claim amount, the arbitration may be based solely on submitted documents or involve a hearing. The arbitrator may conduct hearings by telephone or video conference upon request.
+                        
+                        Arbitrator’s Decision and Governing Law: The arbitrator will apply California law and render an award within the timeframe specified by AAA Rules. The arbitrator may award declaratory or injunctive relief only to the extent necessary to provide relief for the individual claim.
+                        
+                        Fees: Each party is responsible for arbitration fees as per AAA Rules.
+                        
+                        These arbitration provisions do not prevent either party from seeking injunctive or equitable relief in court to prevent infringement of intellectual property rights. This Agreement and your use of the Services are governed by the laws of the State of California, except as provided otherwise in this Agreement.</p>
+                    <h4>Governing Law</h4>
+                    <p>Unless otherwise specified, this Agreement and your use of the Services are governed by and construed under the laws of the State of California, without regard to choice of law principles.</p>
+                    <h4>No Agency; No Employment</h4>
+                    <p>This Agreement does not create any agency, partnership, joint venture, employer-employee, or franchiser-franchisee relationship between you and Fasttrackr.</p>
+                    <h4>General Provisions</h4>
+                    <p>Fasttrackr's failure to enforce any provision of this Agreement does not waive its right to do so later. This Agreement constitutes the entire agreement between you and Fasttrackr, superseding any prior agreements or communications. If any provision is found to be invalid, illegal, or unenforceable, it will be modified or excised without affecting the validity of the remaining provisions. This Agreement may not be assigned or transferred by you without Fasttrackr's prior written approval.</p>
+                    <h4>Changes to this Agreement and the Services</h4>
+                    <p>Fasttrackr reserves the right to change, modify, or discontinue any terms of this Agreement or the Services at any time without prior notice. Your continued use of the Services after any such changes constitutes acceptance of the modified Agreement.</p>
+                    <h4>No Rights of Third Parties</h4>
+                    <p>None of the terms of this Agreement can be enforced by any persons who are not a party to this Agreement.</p>
+                    <h4>Notices and Consent to Receive Notices Electronically</h4>
+                    <p>You consent to receive all agreements, notices, disclosures, and other communications electronically. Unless otherwise specified, notices will be deemed duly given when received, personally delivered, sent by certified or registered mail, electronically confirmed, or sent for next-day delivery by a recognized overnight delivery service.</p>
+                    <h4>Contacting Us</h4>
+                    <p>If you have any questions about these Terms of Service or the Services, please contact us at support@fasttrackr.com.</p>
+                    <h4>Confidential Information</h4>
+                    <p>You acknowledge that Confidential Information (as defined below) is valuable to Fasttrackr and agree not to disclose, transfer, or use any Confidential Information except for using the Services as per these Terms of Service. You may disclose Confidential Information to authorized employees and agents who are also bound to maintain its confidentiality. Promptly notify Fasttrackr of any potential unauthorized disclosure, transfer, or use of Confidential Information and take reasonable measures to safeguard it. Upon termination of this Agreement, return all materials containing Confidential Information to Fasttrackr.
 
-16. Changes to this Agreement and the Services
-Mindy reserves the right, at its sole and absolute discretion, to change, modify, add to, supplement, suspend, discontinue, or delete any of the terms and conditions of this Agreement (including these Terms of Service and Privacy Policy) and review, improve, modify or discontinue, temporarily or permanently, the Services or any content or information through the Services at any time, effective with or without prior notice and without any liability to Mindy. Mindy will endeavor to notify you of material changes by email, but will not be liable for any failure to do so. If any future changes to this Agreement are unacceptable to you or cause you to no longer be in compliance with this Agreement, you must terminate, and immediately stop using, the Services. Your continued use of the Services following any revision to this Agreement constitutes your complete and irrevocable acceptance of any and all such changes. Mindy may also impose limits on certain features or restrict your access to part or all of the Services without notice or liability.
+                        The term "Confidential Information" includes all trade secrets, confidential and proprietary information, and any data not generally known to the public or third parties. This includes technical data, research, product plans, customers, markets, software, developments, inventions, processes, designs, financial information, and other proprietary and confidential information related to Fasttrackr's business, operations, or properties, as well as information about Fasttrackr's staff, users, or partners.</p>
+                    <h4>Disclaimer of Warranties</h4>
+                    <p>The Services and Outputs are provided "AS IS" without warranties or conditions, including but not limited to merchantability, fitness for a particular purpose, and non-infringement. Fasttrackr makes no warranties regarding the accuracy or completeness of the content provided through the Services or any linked sites and assumes no liability for errors, personal injury, property damage, or other damages arising from your use of the Services or Output.</p>
+                    <h4>Indemnification</h4>
+                    <p>You agree to indemnify, defend, and hold harmless Fasttrackr and its officers, directors, employees, agents, attorneys, insurers, successors, and assigns from any liabilities incurred in connection with your use of the Services or Output, your breach of this Agreement, violation of any law or rights of any user or third party, or any content submitted by you or using your Account.</p>
+                        
+					</ul>
+					
+	</div>
+	<!-- Footer -->
+	<footer class="py-5 text-center">
+		<a class="mx-3 text-decoration-none" style="color: #000;" href="./privacy.html">our terms of service</a> 
+		<a href="./"></a>
+	</footer>
+</body>
 
-17. No Rights of Third Parties
-None of the terms of this Agreement are enforceable by any persons who are not a party to this Agreement.
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+	integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+	</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+	integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+	</script>
+<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+	integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+	crossorigin="anonymous"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+	</script>
+</body>
 
-18. Notices and Consent to Receive Notices Electronically
-You consent to receive any agreements, notices, disclosures and other communications (collectively, “Notices”) to which this Agreement refers electronically including without limitation by e-mail or by posting Notices on this Site. You agree that all Notices that we provide to you electronically satisfy any legal requirement that such communications be in writing. Unless otherwise specified in this Agreement, all notices under this Agreement will be in writing and will be deemed to have been duly given when received, if personally delivered or sent by certified or registered mail, return receipt requested; when receipt is electronically confirmed, if transmitted by facsimile or email; or the day after it is sent, if sent for next day delivery by a recognized overnight delivery service.
-
-19. Contacting Us
-If you have any questions about these Terms of Service or about the Services, please contact us by email at support@mindy.com or by mail to Mindy Group, Inc., 201 MISSION STREET SUITE 800, SAN FRANCISCO, CA 94105.
-
-
-9. Confidential Information
-
-You recognize that Confidential Information (as defined below) holds significant value for Fasttrackr and agree not to disclose, transfer, or utilize any Confidential Information except for the purpose of using the Services in accordance with these Terms of Service. Should the need arise, you may divulge Confidential Information to your authorized employees and agents, provided they are also bound to maintain its confidentiality. You must promptly inform Fasttrackr in writing of any potential unauthorized disclosure, transfer, or use of Confidential Information. It is your responsibility to take reasonable measures to safeguard Confidential Information from unauthorized access, transfer, or use. Upon termination of this Agreement for any reason, you must return all original and duplicate materials containing Confidential Information to Fasttrackr.
-
-The term "Confidential Information" refers to all trade secrets, confidential and proprietary information, and any other data of Fasttrackr not commonly known to the public or third parties who could derive value from its use or disclosure. This includes technical data, know-how, research, product plans, customers, markets, software, developments, inventions, processes, designs, financial information, and other proprietary and confidential information related to Fasttrackr's business, operations, or properties, as well as information about Fasttrackr's staff, users, or partners.
-
-10. Disclaimer of Warranties
-
-THE SERVICES AND OUTPUTS ARE PROVIDED "AS IS" WITHOUT ANY WARRANTIES OR CONDITIONS, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. FASTTRACKR MAKES NO WARRANTIES OR REPRESENTATIONS ABOUT THE ACCURACY OR COMPLETENESS OF THE CONTENT PROVIDED THROUGH THE SERVICES OR THE CONTENT OF ANY LINKED SITES AND ASSUMES NO LIABILITY OR RESPONSIBILITY FOR ANY ERRORS, MISTAKES, PERSONAL INJURY, PROPERTY DAMAGE, OR OTHER DAMAGES ARISING FROM YOUR USE OF THE SERVICES OR OUTPUT. UNDER NO CIRCUMSTANCES WILL FASTTRACKR OR ITS AFFILIATES BE LIABLE FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL, OR EXEMPLARY DAMAGES ARISING FROM YOUR USE OF OR INABILITY TO USE THE SERVICES OR OUTPUT.
-
-11. Indemnification
-
-You agree to indemnify, defend, and hold harmless Fasttrackr and its officers, directors, employees, agents, attorneys, insurers, successors, and assigns from any and all liabilities incurred in connection with your use of the Services or Output, your breach of this Agreement, your violation of any law or the rights of any user or third party, or any content submitted by you or using your Account.
-
+</html>
