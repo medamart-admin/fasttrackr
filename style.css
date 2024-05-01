@@ -10,7 +10,7 @@
 body
 {
     min-height: 100vh;
-    background:linear-gradient(#C0D9C2,#008B8B);
+    background:linear-gradient(#EBFDF3,#161F48);
     margin:0;
     padding:0;
     /* overflow-x: hidden; */
@@ -30,7 +30,7 @@ header
 }
 header .logo
 {
-    color: #008B8B;
+    color: #161F48;
     font-weight: 700;
     text-decoration: solid;
     font-size: 2em;
@@ -81,7 +81,7 @@ section::before
     bottom: 0;
     width: 100%;
     height: 100px;
-    background: linear-gradient(to top,#008B8B,transparent);
+    background: linear-gradient(to top,#161F48,transparent);
     z-index: 1000;
 }
 section img
@@ -105,7 +105,7 @@ section img#mountains_front
 #text
 {
     position: absolute;
-    color: #008B8B;
+    color: #161F48;
     white-space: nowrap;
     font-size: 7.5vw;
     z-index: 9;
@@ -118,7 +118,7 @@ section img#mountains_front
     padding: 8px 30px;
     border-radius: 40px;
     background:#ffffff;
-    color: #008B8B;
+    color: #161F48;
     font-size: 1.3em;
     z-index: 9;
     transform: translateY(140px);
@@ -127,7 +127,7 @@ section img#mountains_front
 {
     position: relative;
     padding: 30px;
-    background: #008B8B;
+    background: #161F48;
 }
 .sec h2
 {
@@ -150,7 +150,7 @@ section img#mountains_front
 {
     position: relative;
     padding: 100px;
-    background: #008B8B;
+    background: #161F48;
 }
 .sec h2
 {
