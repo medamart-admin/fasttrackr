@@ -10,7 +10,7 @@
 body
 {
     min-height: 100vh;
-    background:linear-gradient(#97EBBC,#161F48);
+    background:linear-gradient(#d1f6e1,#d1f6e1);
     margin:0;
     padding:0;
     /* overflow-x: hidden; */
@@ -140,6 +140,16 @@ section img#mountains_front
 {
     font-size: 1.8em;
     color: #fff;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+.foot
+{
+    font-size: 0.8em;
+    color: #d0d0d0;
     align-items: center;
     align-content: center;
     text-align: center;
